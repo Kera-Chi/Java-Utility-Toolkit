@@ -14,25 +14,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.juk.url.URLParamProcessor;
+import lombok.RequiredArgsConstructor;
 
 /**
  * REST API Controller for URL parameter processing utility
  */
 @RestController
 @RequestMapping("/api/url-params")
+@RequiredArgsConstructor
 public class URLParamController {
 
     private final URLParamProcessor processor;
     private final ObjectMapper objectMapper;
-
-    /**
-     * Creates a new URL parameter controller instance
-     * Initializes processor and object mapper
-     */
-    public URLParamController() {
-        this.processor = new URLParamProcessor();
-        this.objectMapper = new ObjectMapper();
-    }
 
     /**
      * Parses URL parameter string
