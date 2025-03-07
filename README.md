@@ -4,7 +4,7 @@ A collection of utility tools for Java developers, providing various helpers for
 
 ## Available Utilities
 
-- [URL Parameters Utility](docs/utilities/url-params/README.md) - Tools for working with URL query parameters
+- [URL Parameters Utility](docs/url-params/README.md) - Tools for working with URL query parameters
 
 ## Getting Started
 
@@ -24,16 +24,12 @@ A collection of utility tools for Java developers, providing various helpers for
 Each utility has its own documentation:
 
 - URL Parameters Utility
-    - [Overview](docs/utilities/url-params/README.md)
-    - [API Guide](docs/utilities/url-params/api-guide.md)
-    - [Examples](docs/utilities/url-params/examples.md)
+  - [Overview](docs/url-params/README.md)
+  - [API Guide](docs/url-params/api-guide.md)
+  - [Examples](docs/url-params/examples.md)
 
 ## Technologies
 
 - Java
 - Spring Boot
 - Maven
-
-## License
-
-[Your License Information]
