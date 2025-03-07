@@ -7,6 +7,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Service;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
@@ -15,6 +17,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
  * Supports parsing, encoding/decoding, JSON formatting, and conversion of URL
  * parameters
  */
+@Service
 public class URLParamProcessor {
 
     private final ObjectMapper objectMapper;
