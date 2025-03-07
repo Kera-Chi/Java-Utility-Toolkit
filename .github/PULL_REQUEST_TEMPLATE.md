@@ -1,9 +1,3 @@
-
-
-Breaking changes refer to modifications in code that can cause existing functionality to stop working correctly. These changes might require users of your code to update their implementations to accommodate the new structure. In your case, changing dependency injection patterns and adding annotations could potentially break existing code that relies on the old structure.
-
-Here's an English version of the PR template:
-
 # PULL_REQUEST_TEMPLATE.md
 
 ## Description
