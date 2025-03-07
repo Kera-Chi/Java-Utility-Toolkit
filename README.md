@@ -10,14 +10,14 @@ A collection of utility tools for Java developers, providing various helpers for
 
 1. Clone this repository
 2. Build the project with Maven:
-3. ```bash
+```bash
    mvn clean install
    ```
-4. Run the application:
-5. ```bash
-   java -jar target/juk-1.0-SNAPSHOT.jar
+3. Run the application:
+```bash
+   mvn spring-boot:run
    ```
-6. Access the utilities at `http://localhost:8080/`
+4. Access the utilities at `http://localhost:8080/`
 
 ## Documentation
 
